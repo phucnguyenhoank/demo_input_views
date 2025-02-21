@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".LinearLayoutActivity1">
+
+    <!-- Column 1: weight 1, contains 2 rectangles -->
+    <LinearLayout
+        android:id="@+id/col1"
+        android:layout_width="1dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/col1_rect1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Rect 1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#FF5722" />
+
+        <TextView
+            android:id="@+id/col1_rect2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Rect 2"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#E91E63" />
+    </LinearLayout>
+
+    <!-- Column 2: weight 2, contains 3 rectangles -->
+    <LinearLayout
+        android:id="@+id/col2"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/col2_rect1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Rect 1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#3F51B5" />
+
+        <TextView
+            android:id="@+id/col2_rect2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Rect 2"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#2196F3" />
+
+        <TextView
+            android:id="@+id/col2_rect3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Rect 3"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#00BCD4" />
+    </LinearLayout>
+
+    <!-- Column 3: weight 1, contains 1 rectangle -->
+    <LinearLayout
+        android:id="@+id/col3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/col3_rect1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Rect 1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#4CAF50" />
+    </LinearLayout>
+
+    <!-- Column 4: weight 3, contains 4 rectangles -->
+    <LinearLayout
+        android:id="@+id/col4"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/col4_rect1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Rect 1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#9C27B0" />
+
+        <TextView
+            android:id="@+id/col4_rect2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Rect 2"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#673AB7" />
+
+        <TextView
+            android:id="@+id/col4_rect3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Rect 3"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#3F51B5" />
+
+        <TextView
+            android:id="@+id/col4_rect4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Rect 4"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:background="#03A9F4" />
+    </LinearLayout>
+</LinearLayout>

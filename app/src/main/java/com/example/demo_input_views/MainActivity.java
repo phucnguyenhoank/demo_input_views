@@ -68,6 +68,23 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        Button btnMoveToLinearLayout1 = findViewById(R.id.btn_move_to_linear_layout_1);
+        Button btnMoveToLinearLayout2 = findViewById(R.id.btn_move_to_linear_layout_2);
+        btnMoveToLinearLayout1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, LinearLayoutActivity1.class);
+                startActivity(intent);
+            }
+        });
+        btnMoveToLinearLayout2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, LinearLayoutActivity2.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void setRandomBackground() {
