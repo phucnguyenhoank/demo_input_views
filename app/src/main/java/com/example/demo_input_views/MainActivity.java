@@ -85,6 +85,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnMoveToFastFoodIntro = findViewById(R.id.btn_move_to_fast_food_intro);
+        btnMoveToFastFoodIntro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, FastFoodWelcomePageActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void setRandomBackground() {

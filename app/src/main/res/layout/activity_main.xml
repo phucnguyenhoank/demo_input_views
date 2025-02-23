@@ -93,4 +93,14 @@
         app:layout_constraintStart_toEndOf="@+id/btn_move_to_linear_layout_1"
         app:layout_constraintTop_toBottomOf="@+id/btn_move_to_ran_num_generator" />
 
+    <Button
+        android:id="@+id/btn_move_to_fast_food_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="25dp"
+        android:text="Fast food intro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_move_to_linear_layout_1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
